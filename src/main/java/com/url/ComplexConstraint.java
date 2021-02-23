@@ -3,11 +3,11 @@ package com.url;
 import java.util.List;
 import java.util.Map;
 
-public class AustraliaColoringConstraint extends Constraint<String, String>
+public class ComplexConstraint extends Constraint<String, String>
 {
     private String place1, place2;
 
-    public AustraliaColoringConstraint(String place1, String place2)
+    public ComplexConstraint(String place1, String place2)
     {
         super(List.of(place1, place2));
         this.place1 = place1;

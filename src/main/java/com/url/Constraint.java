@@ -11,6 +11,6 @@ public abstract class Constraint <V, D>
     {
         this.variables = variables;
     }
-
+    public List<V> getVariables() { return variables; }
     public abstract boolean satisfied(Map<V,D> assigment);
 }
